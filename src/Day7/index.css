@@ -1,0 +1,56 @@
+/* Reset basic styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* Better image behavior */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Accessible links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Accessible button default */
+button {
+  font-family: inherit;
+}
+
+/* Visible focus for keyboard navigation (IMPORTANT for accessibility) */
+:focus-visible {
+  outline: 3px solid #6C63FF;
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve input accessibility */
+input,
+button {
+  font-size: 16px;
+}
+
+/* Disabled button style */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

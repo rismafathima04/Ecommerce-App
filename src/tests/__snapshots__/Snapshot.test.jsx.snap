@@ -1,0 +1,86 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Layout snapshot 1`] = `
+<div>
+  <nav
+    aria-label="Main Navigation"
+    style="display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; background: rgb(255, 255, 255); box-shadow: 0 2px 5px rgba(0,0,0,0.1);"
+  >
+    <h2
+      style="font-weight: bold;"
+    >
+      E-SHOP
+    </h2>
+    <div
+      role="navigation"
+    >
+      <a
+        aria-current="page"
+        aria-label="Go to Home page"
+        class="active"
+        data-discover="true"
+        href="/"
+        style="color: rgb(108, 99, 255); font-weight: bold;"
+      >
+        Home
+      </a>
+      <a
+        aria-label="Browse products"
+        class=""
+        data-discover="true"
+        href="/products"
+        style="margin: 0px 10px; text-decoration: none; color: black;"
+      >
+        Products
+      </a>
+      <a
+        aria-label="View wishlist"
+        class=""
+        data-discover="true"
+        href="/wishlist"
+        style="margin: 0px 10px; text-decoration: none; color: black;"
+      >
+        Wishlist
+      </a>
+      <a
+        aria-label="View shopping cart"
+        class=""
+        data-discover="true"
+        href="/cart"
+        style="margin: 0px 10px; text-decoration: none; color: black;"
+      >
+        Cart
+      </a>
+      <a
+        aria-label="View profile settings"
+        class=""
+        data-discover="true"
+        href="/profile"
+        style="margin: 0px 10px; text-decoration: none; color: black;"
+      >
+        Profile
+      </a>
+      <a
+        class=""
+        data-discover="true"
+        href="/orders"
+        style="margin: 0px 10px; text-decoration: none; color: black;"
+      >
+        Orders
+      </a>
+    </div>
+  </nav>
+  <main
+    style="min-height: 80vh; padding: 20px;"
+  >
+    <p>
+      Snapshot Test
+    </p>
+  </main>
+  <footer
+    style="padding: 15px; background: rgb(51, 51, 51); color: rgb(255, 255, 255); text-align: center;"
+  >
+    © 2026 BrightUI Store. All rights reserved.
+  </footer>
+</div>
+`;

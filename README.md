@@ -147,6 +147,9 @@ Improvements for future:
 
 - Add backend integration
 - Improve responsiveness for mobile devices
+
+
+
 👩‍💻 Author
 
 Risma Fathima

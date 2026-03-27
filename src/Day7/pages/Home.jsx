@@ -5,7 +5,8 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div style={{
+    <div className="product-list"
+    style={{
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",

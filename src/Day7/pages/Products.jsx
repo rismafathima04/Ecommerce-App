@@ -103,7 +103,7 @@ function Products({ wishlist, toggleWishlist }) {
   };
 
   return (
-    <div
+    <div className="product-list"
       style={{ display: "flex", gap: "20px", padding: "40px 20px" }}
     >
 

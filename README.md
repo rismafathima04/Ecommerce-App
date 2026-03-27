@@ -90,6 +90,17 @@ npm run dev
 - Setup CI using GitHub Actions
 
 ---
+ UI/UX Improvements 
+
+ Enhancements Made:
+- Added hover animations to buttons and cards
+- Improved spacing and layout for better readability
+- Added focus styles for inputs
+
+Feedback:
+- UI feels more interactive and responsive
+- Navigation is clearer and cleaner
+- Overall design looks more modern
 
 👩‍💻 Author
 

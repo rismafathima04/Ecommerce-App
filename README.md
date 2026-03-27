@@ -1,16 +1,96 @@
-# React + Vite
+🛒 Ecommerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Description
 
-Currently, two official plugins are available:
+This is a React-based ecommerce application where users can browse products, apply filters, search items, and manage cart and wishlist. The project uses API-based product data and includes modern UI features.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🛍️ Product listing using API
+- 🔍 Search functionality
+- 🎯 Category & price filters
+- ❤️ Wishlist management
+- 🛒 Add to cart
+- 💳 Checkout system
+- 📄 Pagination support
+- ⚙️ CI setup using GitHub Actions
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Vite
+- FakeStore API
+- GitHub Actions (CI)
+
+---
+
+▶️ Setup Instructions
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/Ecommerce-App.git
+
+2. Navigate to project folder:
+
+cd Ecommerce-App
+
+3. Install dependencies:
+
+npm install
+
+4. Run the application:
+
+npm run dev
+
+---
+
+🧩 Component Documentation
+
+🔹 ProductCard
+
+- Displays product image, title, and price
+- Allows adding/removing from wishlist
+
+🔹 Navbar
+
+- Provides navigation across pages
+- Shows cart and wishlist links
+
+🔹 Cart
+
+- Displays selected products
+- Calculates total price
+
+🔹 Filters (Sidebar)
+
+- Filter products by category
+- Filter products by price range
+
+🔹 Search Bar
+
+- Allows users to search products dynamically
+
+---
+
+📢 Release Notes
+
+🚀 Version 1.0
+
+- Initial ecommerce app setup
+- Integrated product API
+- Implemented search and filters
+- Added cart and wishlist features
+- Implemented pagination
+- Setup CI using GitHub Actions
+
+---
+
+👩‍💻 Author
+
+Risma Fathima
